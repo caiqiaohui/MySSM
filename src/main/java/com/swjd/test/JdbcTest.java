@@ -23,6 +23,7 @@ public class JdbcTest extends TestCase {
         employee.setId(1);
         employee.setName("小蔡");
         employee.setGender("女");
+
         employee.setBirthday("2020-1-1");
         boolean result=employeeService.update(employee);
         assertEquals(true,result);
