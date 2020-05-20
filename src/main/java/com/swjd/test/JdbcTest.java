@@ -27,6 +27,7 @@ public class JdbcTest extends TestCase {
         employee.setBirthday("2020-1-1");
         boolean result=employeeService.update(employee);
         assertEquals(true,result);
+
     }
     @Test
     public   void testQuery(){
